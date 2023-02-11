@@ -1,5 +1,5 @@
-# Digital Studio - Creative NuxtJS Template
-Digital Studio is a versatile Vue Nuxt JS Template, which emphasizes creativity, efficiency, and diversity in site-building.
+# Photo Slider - Creative NuxtJS Template
+Photo Slider is a creative photo NuxtJS template
 ## Build Setup
 ```bash
 # install dependencies
