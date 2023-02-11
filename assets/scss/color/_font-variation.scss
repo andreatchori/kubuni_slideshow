@@ -1,0 +1,116 @@
+@for $i from 1 through length($fontList) {
+    body.template-font-#{$i} {
+        .heading,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6 {
+            font-family: nth($fontList, $i);
+        }
+        .heading {
+            &.font-reenie {
+                font-family: 'Reenie Beanie', cursive;
+            }
+        }
+        .mega__width--fullscreen {
+            .mega__list {
+                li {
+                    a {
+                        span {
+                            font-family: nth($fontList, $i);
+                        }
+                    }
+                }
+            }
+        }
+        .footer-widget {
+            .footer-menu {
+                ul {
+                    &.ft-menu-list {
+                        li {
+                            a {
+                                font-family: nth($fontList, $i);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .copyright {
+            ul {
+                &.bk-copyright-menu {
+                    li {
+                        a {
+                            font-family: nth($fontList, $i);
+                        }
+                    }
+                }
+            }
+        }
+        .copyright {
+            .copyright-right {
+                p {
+                    font-family: nth($fontList, $i);
+                }
+            }
+        }
+        .footer-widget {
+            .footer-address {
+                p {
+                    font-family: nth($fontList, $i);
+                }
+            }
+        }
+        .form-style--1 {
+            .input-box {
+                input,
+                textarea {
+                    font-family: nth($fontList, $i);
+                }
+            }
+        }
+        .testimonial_style--1 {
+            .content {
+                p {
+                    font-family: nth($fontList, $i);
+                }
+                .testimonial-info {
+                    .clint-info {
+                        span {
+                            font-family: nth($fontList, $i);
+                        }
+                    }
+                }
+            }
+        }
+        .service {
+            &.service--1 {
+                .content {
+                    p {
+                        font-family: nth($fontList, $i);
+                    }
+                }
+            }
+        }
+        .service {
+            &.service--2 {
+                .content {
+                    h4 {
+                        font-family: nth($fontList, $i);
+                    }
+                    p {
+                        font-family: nth($fontList, $i);
+                    }
+                }
+            }
+        }
+    }
+}
