@@ -1,5 +1,6 @@
 # Photo Slider - Creative NuxtJS Template
 Photo Slider is a creative photo NuxtJS template
+Preview : https://dapper-dasik-25aa6f.netlify.app/
 ## Build Setup
 ```bash
 # install dependencies
