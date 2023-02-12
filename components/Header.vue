@@ -1,5 +1,5 @@
 <template>
-    <header class="bk_left-vertical-header">
+    <header class="kb_left-vertical-header">
         <div class="side-header-inner">
             <div class="header-wrap">
                 <div class="header-top">

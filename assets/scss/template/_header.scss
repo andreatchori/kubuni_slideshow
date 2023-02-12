@@ -295,11 +295,11 @@ header.br_header.header-default.vertical-slide-portfolio {
     justify-content: flex-start;
 }
 
-.header-left--align .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1.with--drop>a::before {
+.header-left--align .mainmenu-wrapper .page_nav ul.mainmenu li.level.with--drop>a::before {
     display: none;
 }
 
-.header-left--align .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1.with--drop>a {
+.header-left--align .mainmenu-wrapper .page_nav ul.mainmenu li.level.with--drop>a {
     margin-left: 8px;
     padding-right: 8px;
 }
@@ -338,12 +338,12 @@ header.br_header.header-default.vertical-slide-portfolio {
     }
 }
 
-.headroom--sticky.headroom--not-top .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1 {
+.headroom--sticky.headroom--not-top .mainmenu-wrapper .page_nav ul.mainmenu li.level {
     padding-top: 31px;
     padding-bottom: 31px;
 }
 
-.headroom--sticky.headroom--not-top .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1>a {
+.headroom--sticky.headroom--not-top .mainmenu-wrapper .page_nav ul.mainmenu li.level>a {
     padding-top: 31px;
     padding-bottom: 31px;
 }
